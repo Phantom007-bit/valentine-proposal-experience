@@ -107,7 +107,7 @@ export default function ValentinePage() {
       {/* PHASE 1 & 2: MAIN FEED */}
       {isAuthenticated && !hasSaidYes && (
         <div className="h-screen w-full overflow-y-scroll snap-y snap-mandatory scroll-smooth">
-          <MemorySection id={1} imageSrc="us1.jpg" caption="Our first coffee ☕" />
+          <MemorySection id={1} imageSrc="us1.jpg" caption="Our first date ☕" />
           <MemorySection id={2} imageSrc="us2.jpg" caption="That sunset... 🌅" />
           <MemorySection id={3} imageSrc="us3.jpg" caption="You + Me 💑" />
 
